@@ -54,9 +54,9 @@ def build_fancy_grids(user_input):
     fancy_grids = []
     for c in user_input:
         if ABC.get(c.lower()) is None:
-            print("Char '%s' is ommited, not implemented yet." % c)
+            print("Char '%s' is omitted, not implemented yet." % c)
             continue
-        fancy_grids.append(ABC.get(c.lower(), ABC.get("empty")))
+        fancy_grids.append(ABC.get(c.lower()))
         # append space between letters
         fancy_grids.append([S, S, S, S, S])
     return fancy_grids
