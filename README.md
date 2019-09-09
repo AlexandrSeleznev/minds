@@ -7,4 +7,4 @@ A package to generate a fancy text.
 
 Use pip to install the package
 
-    $ pip install 
+    $ pip install -r git+git://github.com/AlexandrSeleznev/minds.git@v1.0.0#egg=minds

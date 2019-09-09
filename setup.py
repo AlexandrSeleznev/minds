@@ -1,6 +1,9 @@
 import setuptools
 
 
+version='v1.2.0'
+
+
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
@@ -11,7 +14,7 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name="minds",
-    version="1.0.0",
+    version=version,
     author="Alexandr Seleznyov",
     author_email="alexandr@getoffice.com.com",
     description="A package to provide a fancy text.",
