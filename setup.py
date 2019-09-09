@@ -1,7 +1,5 @@
 import setuptools
-
-
-version='v1.2.0'
+from minds import version
 
 
 with open("README.md", "r") as fh:
